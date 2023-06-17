@@ -1,3 +1,5 @@
+
+
 .container {
     border:1px red solid;
     display: flex;
@@ -8,7 +10,8 @@
     border:1px red solid;
     display: flex;
     background-color: purple;
-    padding:35px
+    padding:35px;
+    height: 20px;
     
 }
 
@@ -67,13 +70,18 @@
 
 p {
     color:white;
-    font-size: 25px;
-    font-style: italic;
+    font-size: 30px;
+    font-style:normal;
     font-weight: 900;
+    position: absolute;
+    top:10px
 }
 
 ul {
     list-style: none;
+    position: absolute;
+    left:1px;
+    top:105px;
 }
 
 li {
