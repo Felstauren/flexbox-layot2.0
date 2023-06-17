@@ -37,6 +37,9 @@
     height:770px;
     width: 1650px;
     flex-direction: column;
+    flex-wrap: wrap;
+    text-align:start;
+    padding:10px;
 }
 
 .container-right1 {
@@ -66,6 +69,9 @@
     display: flex;
     background-color: lightgray;
     padding:35px;
+    justify-content: center;
+    align-content: center;
+    color:purple;
 }
 
 p {
@@ -89,4 +95,8 @@ li {
     text-align: left;
     font-size: 20px;
     line-height: 50px;
+}
+
+div {
+    justify-content: flex-start;
 }
